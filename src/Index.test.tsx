@@ -53,13 +53,13 @@ describe('application tests', () => {
     expect(parent).toHaveAttribute('href', link);
   };
 
-  it('should render name: Adam Alston', () => {
+  it('should render name: Sk Tangim', () => {
     const element = screen.getByTestId('name');
 
     checkContent(element, /^Sk Tangim$/);
   });
 
-  it('should render title: Software Engineer', () => {
+  it('should render title: Civil Engineer', () => {
     const element = screen.getByTestId('title');
 
     checkContent(element, /^Civil Engineer$/);
@@ -68,7 +68,7 @@ describe('application tests', () => {
   it('should render creator', () => {
     const element = screen.getByTestId('creator');
 
-    checkContent(element, /^Adam Alston$/, 'https://www.adamalston.com');
+    checkContent(element, /^Sk Tangim$/, '');
   });
 
   it('should render link to source code', () => {

@@ -31,17 +31,17 @@ const Footer: React.FC = () => {
       <F.Text
         data-v2="footer"
         theme={theme}
-        aria-label="Designed and built by Adam Alston"
+        aria-label="Designed and built by Arup Mandal"
       >
         {'Designed and built by '}
         <F.Link
           data-v2="creator"
           theme={theme}
-          href="https://www.adamalston.com"
+          href="https://arupmandal.github.io"
           aria-label="Adam's website"
           title="A link to Adam's personal website"
         >
-          {'Adam Alston'}
+          {'Arup Mandal'}
         </F.Link>
         {!isMobile && (
           <>
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
             <F.Link
               data-v2="source"
               theme={theme}
-              href="https://github.com/adamalston/v2/"
+              href="https://github.com/arupmandal/"
               aria-label="Source code"
               title="View this website's source code in GitHub"
             >
